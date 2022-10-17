@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    margin: 5px 
+}
+
+.album-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* for feed */
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.card-container{
+    width: 150px;
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3,h4{
+    font-size: 0.7rem;
+    padding: 2px;
+}
+
+p{
+    font-size: 0.6rem;
+}
+
